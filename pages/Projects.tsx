@@ -1,5 +1,7 @@
 {/* Projects Section */}
 import Link from 'next/link'
+const Projects = () => {
+  return (
 <section id="projects" className="section bg-slate-50 dark:bg-slate-900">
   <div className="container">
     <h2 className="text-center mb-12 text-4xl font-bold">
@@ -73,3 +75,5 @@ import Link from 'next/link'
     </div>
   </div>
 </section>
+  );
+}
