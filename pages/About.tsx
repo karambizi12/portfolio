@@ -1,5 +1,7 @@
 {/* About Section */}
 import Link from 'next/link'
+const About = () => {
+  return (
 <section id="about" className="section bg-white dark:bg-slate-800">
   <div className="container">
     <h2 className="text-center mb-12 text-4xl font-bold">
@@ -58,3 +60,6 @@ import Link from 'next/link'
     </div>
   </div>
 </section>
+  );
+}
+export default About;
